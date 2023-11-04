@@ -134,11 +134,11 @@ This architecture allows for a modular and well-tested implementation of the Mar
 
 The program will prompt you to enter the size of the plateau. The format is `x y`, where `x` and `y` are integers greater than 0. For example, `5 5` will create a plateau with a width of 5 and a height of 5.
 
-Next, you will be asked to enter the position of a rover. The format is `x y direction`, where `x` and `y` are integers greater than 0, and `direction` is one of the following letters: `N`, `S`, `E`, `W`. For example, `1 2 N` will create a rover with a position of (1, 2) and facing North.
+Next, you will be asked to enter the position of a rover. The format is `x y direction`, where `x` and `y` are integers, and `direction` is one of the following letters: `N`, `S`, `E`, `W`. For example, `1 2 N` will create a rover with a position of (1, 2) and facing North.
 
 After entering the position of a rover, you will be asked to enter a series of instructions. The instructions are a string of letters, where `L` and `R` rotate the rover 90 degrees left and right, respectively, and `M` moves the rover forward one grid point. For example, `LMLMLMLMM` will rotate the rover 90 degrees left, move it forward one grid point, rotate it 90 degrees left, move it forward one grid point, and so on.
 
-Then, you will see the final position of the rover after executing the instructions. The format is `x y direction`, where `x` and `y` are integers greater than 0, and `direction` is one of the following letters: `N`, `S`, `E`, `W`. For example, `1 3 N` means that the rover is at position (1, 3) and facing North.
+Then, you will see the final position of the rover after executing the instructions. The format is `x y direction`, where `x` and `y` are integers, and `direction` is one of the following letters: `N`, `S`, `E`, `W`. For example, `1 3 N` means that the rover is at position (1, 3) and facing North.
 
 You can add more rovers by repeating the process. The program will check for collisions and prevent rovers from overlapping.
 
